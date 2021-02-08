@@ -15,7 +15,7 @@ Board Service implementing Login and CRUD
 
 #### ScreenShot
 1. Home
-![Home](./capture/board.png)
+![Home](./capture/home.png)
 
 2. Sign Up
 ![signUp](./capture/signUp.png)
