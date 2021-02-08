@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>main 화면(update)</title>
+    </head>
+    <body>
+        <h1>게시글 수정</h1>
+        <hr>
+
+        <form action="/board/{{post.id}}?_method=PUT" method="POST">
+            <table>
+                <tr>
+                    <td><input type="text" name="editTitle" value="{{post.title}}"></td>
+                </tr>
+            </table>
+            <input type="submit" value="전송하기">
+        </form>
+    </body>
+</html>
